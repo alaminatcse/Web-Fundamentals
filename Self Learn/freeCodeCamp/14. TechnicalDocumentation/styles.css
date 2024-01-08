@@ -1,0 +1,44 @@
+@media screen and (max-width: 1280px) {
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+
+    #navbar {
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: gray;
+        padding-top: 15px;
+        color: white;
+    }
+
+    #navbar header {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    #navbar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #navbar a {
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    #navbar a:hover {
+        background-color: #555;
+    }
+
+    #main-doc {
+        margin-left: 23%;
+        padding: 20px;
+    }
+}
