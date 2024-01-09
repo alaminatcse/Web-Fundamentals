@@ -1,0 +1,69 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, scale-ratio=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Survey Form</title>
+    </head
+    <body>
+        <header>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <main>
+            <form id="survey-form">
+                <section>
+                    <label id="name-label" for="name">Enter Your Name: </label><input id="name" type="text" placeholder="name" required>
+                </section>
+                <section>
+                    <label id="email-label" for="email">Enter Your Email: </label><input id="email" type="email" placeholder="email" required>
+                </section>
+                <section>
+                    <label id="number-label" for="number">Enter Your Age(Optional): </label><input id="number" type="number" min="0" max="99" placeholder="years">
+                </section>
+                <section>
+                    <p>What's Your Favourite Sports: </p>
+                    <select id="dropdown">
+                        <option>select any option</option>
+                        <option>Cricket</option>
+                        <option>Football</option>
+                        <option>Others</option>
+                    </select>
+                </section>
+                <section>
+                    <p>What's Your Favourite Hobby: </p>
+                    <input type="radio" id="reading" name="hobby" value="reading"><label for="reading"> Reading</label>
+                    <input type="radio" id="gardening" name="hobby" value="gardening"><label for="gardening"> Gardening</label>
+                    <input type="radio" id="cycling" name="hobby" value="cycling"><label for="cycling"> Cycling</label>
+                </section>
+                <section>
+                    <p>Your Skillsets: </p>
+                    <input type="checkbox" id="cs-fun" value="skills"><label for="cs-fun"> CS Fundamental</label>
+                    <input type="checkbox" id="language" value="skills"><label for="language"> C/C++</label>
+                    <input type="checkbox" id="oop" value="skills"><label for="oop"> OOP</label>
+                    <input type="checkbox" id="dbms" value="skills"><label for="dbms"> DBMS</label>
+                </section>
+                <section>
+                    <p>Given below your Comments: </p>
+                    <textarea rows="3" cols="30"></textarea>
+                </section>
+                <section>
+                    <input type="submit" id="submit">
+                </section>
+            </form>
+        </main>
+        <footer></footer>
+    </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
