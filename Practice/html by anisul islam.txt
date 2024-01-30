@@ -1,0 +1,28 @@
+1->	HTML Validator website to check wheather there is any error remains or not in the html file codes.
+
+2->	Entity syntax: &entity_name; example- &copy; for copyright symbol, &nbsp; for space, &lt; less than symbol
+
+3->	List attributes: type="a or A or i or I, for unorder- square or dice or circle...", start="from where it will be start"
+
+4->	Image tag attributes: hspace- keep space horizontally, vspace- keep space vertically.
+
+5->	iframe attributes: src- source link, height, width ...., you can use youtube video as iframe just embed from youtube share option.
+
+6->	table caption inside the table tag before thead. when you use border-spacing then you can't use border-collapse.
+	-you can use rowspan, colspan inside the th, td.
+	-table accessibility using colgroup, you can style using scope attribute in column heading and first elements of each row
+	eg: <colgroup> <col span="2" style="style_properties" /> </colgroup>
+
+7->	form properties: for checkbox input type by default settings is checked, for dropdown is selected,
+	another properties are disabled, readonly, required.
+
+8->	Audio and Video tag attributes- autoplay, controls, muted, loop, muted, preload, poster(for thumbnail).
+	after source u can write extra text as placeholder
+
+9->	Progress tag used to show how much(value attribute) a task completed among the full task(max attribute). min attribute indicate starting point.
+
+10->	SVG file for image. svg image benefits is that how much you zoom in/out the image doesn't matter it will remains in same size.
+
+11->	<details> <summary>title</summary> description... </details>. you can style it eg: details[open] > summary { css_properties }
+
+12->	datalist, input pattern attribute see details.
